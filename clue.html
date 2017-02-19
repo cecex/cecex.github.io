@@ -9,11 +9,16 @@
     <link rel="stylesheet" href="css/app.css">
       <meta name="description" content="Christina Xamin Design Portfolio">
       <link rel="shortcut icon" type="image/png" href="img/logo.png"/>
+      <script>
+  function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+  }
+</script>
   </head>
     
   <body>
-      <!-- nav bar-->
-     <div class="contain-to-grid sticky">
+      <!-- nav bar -->
+      <div class="contain-to-grid sticky">
           <nav data-options="sticky_on: large">
     <div class="row">
         <div class="large-12 columns">
@@ -24,42 +29,56 @@
     <li><a href="index.html" class="is-active">Work</a></li>
               </ul></div>
                       <div class="large-6 medium-6 columns">
- <h1 class="headline"><a href="index.html" class="link"><img src="img/logo.png" width="100" align="right" style="padding-top: 1rem"></h1></a>
+  <h1 class="headline"><a href="index.html" class="link"><img src="img/logo.png" width="100" align="right" style="padding-top: 1rem"></h1></a>
                           <p><h2 class="intro">Hi, I'm Christina Xamin</h2></p>
                           </header></div>
         </div></div></div></nav>
 
-
-    <!-- content-->
-     <div class="row">
+         <!-- content -->
+    <div class="row">
       <div class="large-12 columns">
-          <center><h3 class="in-pagetitles">About Me</h3>
+          <center><h3 class="in-pagetitles"><i>Clueless</i> Kinetic Typography</h3>
           <p><img src="img/underline.png" class="underline"></p></center>
-         </div></div>
-    
-    
-      <div class="row">
-      <div class="large-4 medium-4 medium-push-2 columns">
           
-        <p class="bio">My name is Christina and I am currently a 3rd year <b>Interaction Design student</b> at Sheridan College. 
-               <br>My design philosophy is to keep things as simple as possible. I like creating and designing things that are minimal and easy for the user to understand. This way, users of all skill sets will feel like they have a grasp on what they’re interacting with and are comfortable using it. 
-               </p>
-               
-                   <p class="bio">
-                   I am currently searching for an <b>internship for the summer of 2017</b>. <br>You can view my <a href="ChristinaXaminResume.pdf">resume</a>. Feel free to contact me via <a href="mailto:cxamin@gmail.com?Subject=Hi there" target="_top">email</a>. </p>
+           <div class="row">
+      <div class="large-4 medium-4 medium-push-2 columns">
+          <b class="category">Text Motion Graphics</b>
+          <br>
+                <b class="headings">Project Objective</b>
+                <p class="description">Create a time-based kinetic type using speech from a movie, comedy or poetry performance</p>
+        <b class="headings">Process</b>
+          <p class="description">I selected a speech the character Cher gives in the movie <i>Clueless</i> about Haitians coming to America. I wanted my kinetic typography to reflect the same feel of the film, so I created a colour palette with the same bold tones that were seen in the movie, with a heavy influence on the colour pink. I chose fonts that were recreated to reflect the one used in the movie and another that I felt would pair nicely with the overall vibe of the audio/video.
+<br>
+Storyboards were created to map out the animations, and eventually those storyboards were translated digitally into Illustrator. From there, it was all about animating the text to match the audio in a fun way. This proved challenging at points because of how quickly Cher speaks. You can view the final video below or <a href=https://www.youtube.com/watch?v=mi7ZkiThO_4>here</a>.</p>
           
           </div>
            <div class="large-4 medium-4 medium-pull-2 columns">
+              <b class="headings">Storyboard</b>
+               <br>
+               <br>
+                <p><img src="img/cluepro.png"></p>
             
-                <p><img src="img/me.png" class="image"></p>
+            
 
                </div>
           </div>
-         <!-- end content-->
           
+            <div class="row">
+          <div class="large-12 columns">
+            <div class="primary callout">
+            
+                <center><iframe width="853" height="480" src="https://www.youtube.com/embed/mi7ZkiThO_4?rel=0&amp;controls=0?ecver=1" frameborder="0" allowfullscreen></iframe></center>
+                
+              </div>
+                </div>
+          </div>
           
+        </div>
+    </div>
+<!-- end content-->
+
 <!-- footer -->
-    <footer>
+<footer>
   <div class="contain-to-grid sticky">
           <nav data-options="sticky_on: large">
  <div class="row">
@@ -81,9 +100,9 @@
                 </div>
           </div>
         </div>
-        </footer>
-    <!-- end footer -->          
-
+</footer>
+    <!-- end footer -->
+                
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
