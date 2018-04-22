@@ -6155,7 +6155,7 @@ margin: 3px 0px;}
             left: 0;
             width: 100%;
             height: 100vh;
-            background-image: url("/IMG/FBInterfacebb.png");
+            background-image: url(../IMG/FBInterfacebb.png);
             background-size: cover;
             z-index: 200;
             transition: all 2s ease-out 0s;
@@ -6167,7 +6167,7 @@ left: 635px;
             top:4px;
             width: 30px;
             height: 30px;
-            background-image: url("/IMG/icextension.png");
+            background-image: url('/IMG/icextension.png');
             background-size: 30px 30px;
             margin: 0 auto;
             border-radius: 50%;
