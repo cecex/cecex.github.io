@@ -18,11 +18,11 @@
           }
       })
       </script>
-  </head>
-  <body>
-     <div id="container">
+       <div id="container">
         <div id="drag"></div>
     </div> 
+  </head>
+  <body>
       <div data-sticky-container>
            <div class="topbar" data-sticky data-options="marginTop:0;" style="width:100%">
       
@@ -59,13 +59,13 @@ Sunday, May 13 2018 at 2:00 pm
                          <img src="./IMG/eventlarge.png">
                         <div class="rsvpopt" div style='width:45px; height:45px; border-radius:50px; display: inline-block; margin-left:100px; margin-top:10px; margin-bottom: 10px; -webkit-box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);
 -moz-box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);
-                         box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);'><img src="IMG/yes.png"><p style='margin-top:20px; width:80px;'></p> </div>
+                         box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);'><img src="IMG/yes.png"><span class="tooltiptext">I'm going</span><p style='margin-top:20px; width:80px;'></p></div>
                          <div class="rsvpopt" div style='width:45px; height:45px; border-radius:50px; display: inline-block; margin-left:110px; margin-top:10px; margin-bottom: 10px; -webkit-box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);
 -moz-box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);
-                         box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);'> <img src="IMG/maybe.png"></div>
+                         box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);'> <img src="IMG/maybe.png"><span class="tooltiptext">Maybe</span></div>
                           <div class="rsvpopt" div style='width:45px; height:45px; border-radius:50px; display: inline-block; margin-left:110px; margin-top:10px; margin-bottom: 10px; -webkit-box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);
 -moz-box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);
-                         box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);'><img src="IMG/nogrey.png"></div>
+                         box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);'><img src="IMG/nogrey.png"><span class="tooltiptext">I'm not going</span></div>
                                        <div class="statusbox"><div style='font-family:arial; font-weight: bold; color:#3b5998; font-size:20px; text-alignleft;'>Sunday, May 13 2018 at 2:00 pm</div>
                          <div style='font-family:calibri; color:#677580; font-size:18px; text-align:left; line-height:19px;'>
 2232 Wuthering Heights Way
@@ -116,7 +116,7 @@ Bronte Park
                        <!-- USER DM START !-->
                      <a data-open="userdm"><div class="underpp" div style='width:45px; height:45px; border-radius:50px; display: inline-block; margin-left:280px; margin-bottom: 10px; -webkit-box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);
 -moz-box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);
-                         box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);'><img src="IMG/message.png"><p style='margin-top:20px; width:80px;'></p> </div></a> 
+                         box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);'><img src="IMG/message.png"><Br><span class="tooltiptext">See Private Messages</span><p style='margin-top:20px; width:80px;'></p> </div></a> 
                       
                       
                       
@@ -181,7 +181,7 @@ Flynn Jones
                       
                          <a data-open="userstatus"><div class="underpp" div style='width:45px; height:45px; border-radius:50px; display: inline-block; margin-left:30px; margin-bottom: 10px;-webkit-box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);
 -moz-box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);
-                         box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);'><img src="IMG/write.png"></div></a>
+                         box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);'><img src="IMG/write.png"><br><span class="tooltiptext">Post Status</span></div></a>
                       
                       <div class="reveal" id="userstatus" data-reveal>
                  <h2 class="headings">Post Status</h2>
@@ -208,7 +208,7 @@ Flynn Jones
                       
                       <a data-open="userphotos"><div class="underpp" div style='width:45px; height:45px; border-radius:50px; background-color: #7ec9eb;   display: inline-block; margin-left:30px; margin-bottom: 10px;-webkit-box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);
 -moz-box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);
-                         box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);'><img src="IMG/photos.png"></div></a>
+                         box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);'><img src="IMG/photos.png"><br><span class="tooltiptext">Your Photos</span></div></a>
                       
                        <div class="reveal" id="userphotos" data-reveal>
                  <h2 class="headings">Gloria Moretti's Photos</h2>
@@ -386,7 +386,7 @@ Started watch The Crown after many recommendations, so far so good.
                        <!-- FRIEND ONE DM START !-->
                      <a data-open="frienddm"><div class="underpp" div style='width:45px; height:45px; border-radius:50px; display: inline-block; margin-left:280px; margin-bottom: 10px; -webkit-box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);
 -moz-box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);
-                         box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);'><img src="IMG/message.png"><p style='margin-top:20px; width:80px;'></p> </div></a> 
+                         box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);'><img src="IMG/message.png"><br><span class="tooltiptext">Send Flynn a Private Message</span><p style='margin-top:20px; width:80px;'></p> </div></a> 
                       
                       
                       
@@ -439,7 +439,7 @@ Flynn Jones
                       
                          <a data-open="writeonwall1"><div class="underpp" div style='width:45px; height:45px; border-radius:50px; display: inline-block; margin-left:30px; margin-bottom: 10px;-webkit-box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);
 -moz-box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);
-                         box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);'><img src="IMG/write.png"></div></a>
+                         box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);'><img src="IMG/write.png"><br><span class="tooltiptext">Write on Flynn's Wall (Public)</span></div></a>
                       
                       <div class="reveal" id="writeonwall1" data-reveal>
                  <h2 class="headings">Write on Flynn Jones' Wall</h2>
@@ -466,7 +466,7 @@ Flynn Jones
                       
                       <a data-open="friend1photos"><div class="underpp" div style='width:45px; height:45px; border-radius:50px; background-color: #7ec9eb;   display: inline-block; margin-left:30px; margin-bottom: 10px;-webkit-box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);
 -moz-box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);
-                         box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);'><img src="IMG/photos.png"></div></a>
+                         box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);'><img src="IMG/photos.png"><br><span class="tooltiptext">See Flynn's Photos</span></div></a>
                       
                        <div class="reveal" id="friend1photos" data-reveal>
                  <h2 class="headings">Flynn Jones' Photos</h2>
@@ -567,7 +567,7 @@ Next trip. Can't wait.
                        <!-- FRIEND SIX DM START !-->
                      <a data-open="friend6dm"><div class="underpp" div style='width:45px; height:45px; border-radius:50px; display: inline-block; margin-left:280px; margin-bottom: 10px; -webkit-box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);
 -moz-box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);
-                         box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);'><img src="IMG/message.png"><p style='margin-top:20px; width:80px;'></p> </div></a> 
+                         box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);'><img src="IMG/message.png"><br><span class="tooltiptext">Send Massimo a Private Message</span><p style='margin-top:20px; width:80px;'></p> </div></a> 
                       
                       
                       
@@ -630,7 +630,7 @@ When it's hot, it gets too cold close to the falls. We should plan for August
                       
                          <a data-open="writeonwall2"><div class="underpp" div style='width:45px; height:45px; border-radius:50px; display: inline-block; margin-left:30px; margin-bottom: 10px;-webkit-box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);
 -moz-box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);
-                         box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);'><img src="IMG/write.png"></div></a>
+                         box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);'><img src="IMG/write.png"><br><span class="tooltiptext">Write on Massimo's Wall (Public)</span></div></a>
                       
                       <div class="reveal" id="writeonwall2" data-reveal>
                  <h2 class="headings" style='font-size:2.3rem;'>Write on Massimo Moretti's Wall</h2>
@@ -657,7 +657,7 @@ When it's hot, it gets too cold close to the falls. We should plan for August
                       
                       <a data-open="friend6photos"><div class="underpp" div style='width:45px; height:45px; border-radius:50px; background-color: #7ec9eb;   display: inline-block; margin-left:30px; margin-bottom: 10px;-webkit-box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);
 -moz-box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);
-                         box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);'><img src="IMG/photos.png"></div></a>
+                         box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);'><img src="IMG/photos.png"><br><span class="tooltiptext">See Massimo's Photos</span></div></a>
                       
                        <div class="reveal" id="friend6photos" data-reveal>
                  <h2 class="headings">Massimo Moretti's Photos</h2>
@@ -722,7 +722,7 @@ Saw exactly the same truck I had today except mine was a 51. Wish I still had it
                        <!-- FRIEND ONE DM START !-->
                      <a data-open="friend7dm"><div class="underpp" div style='width:45px; height:45px; border-radius:50px; display: inline-block; margin-left:280px; margin-bottom: 10px; -webkit-box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);
 -moz-box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);
-                         box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);'><img src="IMG/message.png"><p style='margin-top:20px; width:80px;'></p> </div></a> 
+                         box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);'><img src="IMG/message.png"><br><span class="tooltiptext">Send Rachel a Private Message</span><p style='margin-top:20px; width:80px;'></p> </div></a> 
                       
                       
                       
@@ -784,7 +784,7 @@ That sounds lovely, I'll let you know what days I'm free next week
                       
                          <a data-open="writeonwall7"><div class="underpp" div style='width:45px; height:45px; border-radius:50px; display: inline-block; margin-left:30px; margin-bottom: 10px;-webkit-box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);
 -moz-box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);
-                         box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);'><img src="IMG/write.png"></div></a>
+                         box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);'><img src="IMG/write.png"><br><span class="tooltiptext">Write on Rachel's Wall (Public)</span></div></a>
                       
                       <div class="reveal" id="writeonwall7" data-reveal>
                  <h2 class="headings">Write on Rachel Gilbert's Wall</h2>
@@ -811,7 +811,7 @@ That sounds lovely, I'll let you know what days I'm free next week
                       
                       <a data-open="friend7photos"><div class="underpp" div style='width:45px; height:45px; border-radius:50px; background-color: #7ec9eb;   display: inline-block; margin-left:30px; margin-bottom: 10px;-webkit-box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);
 -moz-box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);
-                         box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);'><img src="IMG/photos.png"></div></a>
+                         box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.10);'><img src="IMG/photos.png"><br><span class="tooltiptext">See Rachel's Photos</span></div></a>
                       
                        <div class="reveal" id="friend7photos" data-reveal>
                  <h2 class="headings">Rachel Gilbert's Photos</h2>

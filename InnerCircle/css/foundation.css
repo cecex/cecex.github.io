@@ -6357,3 +6357,21 @@ box-shadow: 1px 0px 17px 1px rgba(59,88,152,0.20);
 #privacy .statusbox {
     height: 300px;
 }
+
+.rsvpopt .tooltiptext, .underpp .tooltiptext{
+    visibility: hidden;
+    width: auto;
+    background-color: #7092cb;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 8px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.rsvpopt:hover .tooltiptext, .underpp:hover .tooltiptext {
+    visibility: visible;
+}
