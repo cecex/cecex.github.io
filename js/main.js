@@ -243,3 +243,44 @@ var el = document.getElementById('randomCursor8');
 // Changes the cursor
 el.style.cursor = random(arrayOfCursors);
 
+var arrayOfCursors = ["url(img/cursor2.png), auto", "url(img/cursor3.png), auto", "url(img/cursor4.png), auto", "url(img/cursor4.png), auto", "url(img/cursor6.png), auto"];
+
+// Returns a random element from the provided array
+function random(arr){
+  var num = Math.floor(Math.random() * arr.length);
+  return arr[num];
+} 
+
+// Selects the element
+var el = document.getElementById('randomCursor9');
+
+// Changes the cursor
+el.style.cursor = random(arrayOfCursors);
+
+var arrayOfCursors = ["url(img/cursor2.png), auto", "url(img/cursor3.png), auto", "url(img/cursor4.png), auto", "url(img/cursor4.png), auto", "url(img/cursor6.png), auto"];
+
+// Returns a random element from the provided array
+function random(arr){
+  var num = Math.floor(Math.random() * arr.length);
+  return arr[num];
+} 
+
+// Selects the element
+var el = document.getElementById('randomCursor10');
+
+// Changes the cursor
+el.style.cursor = random(arrayOfCursors);
+
+var arrayOfCursors = ["url(img/cursor2.png), auto", "url(img/cursor3.png), auto", "url(img/cursor4.png), auto", "url(img/cursor4.png), auto", "url(img/cursor6.png), auto"];
+
+// Returns a random element from the provided array
+function random(arr){
+  var num = Math.floor(Math.random() * arr.length);
+  return arr[num];
+} 
+
+// Selects the element
+var el = document.getElementById('randomCursor11');
+
+// Changes the cursor
+el.style.cursor = random(arrayOfCursors);
