@@ -12,10 +12,18 @@
 html,
 body {
   height: 100%;
-  font-family: 'Montserrat', sans-serif;
+font-family: 'Overpass', sans-serif;
 }
 
-h1,
+h1 { 
+       font-size: 0.8em;
+    color: #abe3f5;
+ font-family: 'Overpass', sans-serif;
+    font-weight:100;
+    display: inline;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
 h2,
 h3,
 h4,
@@ -24,7 +32,7 @@ h6 {
   color: #0D1611;
   margin: 0;
   font-weight: 600;
-  font-family: 'Montserrat', sans-serif;
+ font-family: 'Overpass', sans-serif;
 }
 
 p {
@@ -32,7 +40,8 @@ p {
   color: #0D1611;
   line-height: 1.8;
     font-weight: 300;
-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-family: 'PT Serif', serif;
+    letter-spacing: 0.01em;
 }
 
 img {
@@ -366,9 +375,11 @@ a {
 }
 
 .site-logo {
-  font-size: 24px;
-  padding-top: 7px;
+padding-top: 7px;
     padding-left: 5px;
+    display: inline;
+    width: 50%;
+    height: auto;
 }
 
 .main-menu ul {
@@ -954,7 +965,7 @@ background: linear-gradient(90deg, rgba(233,183,223,1) 10%, rgba(171,228,244,1) 
   color: #0D1611;
   line-height: 1.5;
     font-weight: 300;
-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-family: 'PT Serif', serif;
 }
 
 #ps span {
@@ -962,7 +973,7 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:  #0D1611;
   line-height: 1.5;
     font-weight: 400;
-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+font-family: 'PT Serif', serif;
 }
 
 
@@ -971,7 +982,7 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
    font-size: 18px;
   line-height: 1.5;
     font-weight: 500;
-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+font-family: 'PT Serif', serif;
 }
 
 .nextprev {
